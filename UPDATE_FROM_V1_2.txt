@@ -1,0 +1,13 @@
+ISSEY SPECIAL PRICE CATALOG v1.3 UPDATE
+
+1. Stop 05_START_AUTO_UPDATE.bat with Ctrl+C.
+2. Copy these files into your existing v1.2 folder and overwrite them:
+   - special_price_catalog.py
+   - detail.html
+3. DO NOT delete .venv or private. They contain the installed environment and login profile.
+4. Run 03_TEST_UPDATE.bat.
+5. Click a product image. The local detail page should open without an ISSEY MIYAKE login.
+6. Run 06_UPDATE_AND_PUBLISH_ONCE.bat to upload index.html, detail.html, and data/catalog.json.
+7. Restart 05_START_AUTO_UPDATE.bat if needed.
+
+The official purchase page still requires login. The new detail.html is a separate mirrored information page.

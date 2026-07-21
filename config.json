@@ -1,0 +1,14 @@
+{
+  "collection_url": "https://www.isseymiyake.com/collections/special-price",
+  "collection_json_url": "https://www.isseymiyake.com/collections/special-price/products.json",
+  "site_title": "ISSEY MIYAKE SPECIAL PRICE",
+  "refresh_minutes": 5,
+  "browser_channel": "chrome",
+  "headless_collect": true,
+  "max_pages": 20,
+  "page_limit": 250,
+  "request_delay_seconds": 0.35,
+  "product_delay_seconds": 0.15,
+  "git_branch": "main",
+  "github_pages_base_url": ""
+}
